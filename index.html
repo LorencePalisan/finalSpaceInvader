@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Space Invader Game</title>
+</head>
+
+<body>
+    <div id="instructions">
+        <h2><u>Space Invader</u></h2>
+        <h3>Goal: Survive for 3 minutes</h3>
+        <h3>Controls:</h3>
+        <h3>Left Arrow to move Left</h3>
+        <h3>Right Arrow to move Right</h3>
+    </div>
+    <div id="background"></div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <audio id="backgroundMusic" loop>
+        <source src="Attack of the Killer Queen.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <audio id="gameOver">
+        <source src="gameOver.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <audio id="win">
+        <source src="anime hit sound effect.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <audio id="hitSound" src="hit.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
